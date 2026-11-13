@@ -13,4 +13,7 @@ runtime: dummy
 agents:
     - name: enabled-ping
       source: harness/enabled-ping.yaml
+    - name: disabled-ping
+      source: harness/disabled-ping.yaml
+      enabled: false
 mint_url: https://bt-c924629f-bt-mint.fullsend-ai.workers.dev
